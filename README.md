@@ -49,9 +49,3 @@ DemoRestApi/src/main/java/com/abhijit/DemoRestApi/MyResource.java
 ```
 
 The Jersey servlet is mapped to `/api/*` in `DemoRestApi/src/main/webapp/WEB-INF/web.xml`.
-
-## Notes
-
-- Build and deploy the example project you want to run; each directory has its own `pom.xml`.
-- The database connectivity example requires a locally configured MySQL database. Check its source code and Maven configuration before running it.
-- Some directory names preserve their original spelling in the repository (for example, `Content_Negoation`).
